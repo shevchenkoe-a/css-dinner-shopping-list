@@ -1,0 +1,106 @@
+body{
+    font-family: "Trebuchet", "Arial", sans-serif;
+    background-color: #3b3f45;
+    height: 100%;
+    margin: 0;
+
+}
+
+h1{
+    margin: 0;
+    font-weight: normal;
+}
+
+h4{
+    margin: 0;
+    font-weight: normal;
+}
+
+.page-header{
+    color: #eb7d7f;
+    background-color: #4a4f56;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.page-main label{
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    color: #e0e0e0;
+    width: 500px;
+    margin: 0 auto;
+    line-height: 40px;
+    padding-inline-start: 0;
+}
+
+.page-main li:nth-child(even){
+    background-color: #7a7592;
+    border-bottom: 2px solid #7a7592;
+    border-top: 2px solid #7a7592;
+    padding-left: 5px;
+}
+
+.page-main li:nth-child(odd){
+    background-color: #88839d;
+    border-bottom: 2px solid #88839d;
+    border-top: 2px solid #88839d;
+    padding-left: 5px;
+}
+
+.page-main  input:checked+span{
+    text-decoration: line-through;
+    color: #a3a0b5;
+
+}
+
+.page-main  input:checked~span{
+    color: #a3a0b5;
+
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+.page-main li:hover{
+    background-color: #615e76;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    transition: all .1s ease-in;
+}
+
+
+.page-main label:active{
+    color: #a3a0b5;
+}
+
+.page-main label:focus{
+    background-color: #a3a0b5;
+}
+
+.page-main span+span:before{
+    content: "(";
+}
+
+.page-main span+span:after{
+    content: ")";
+}
+
+.page-main span+span{
+    font-size: 12px;
+}
+
+.footer{
+    background-color: #4a4f56;
+    color: #eb7d7f;
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+    line-height: 40px;
+}
